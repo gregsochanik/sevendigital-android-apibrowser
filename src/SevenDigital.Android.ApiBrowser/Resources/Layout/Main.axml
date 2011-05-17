@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TextView
+			android:id="@+id/label"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Type here:"/>
+	<EditText
+			android:id="@+id/entry"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@android:drawable/editbox_background"
+			android:layout_below="@id/label"/>
+	<TextView
+			android:id="@+id/result"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/entry" />
+	<ListView
+			android:id="@+id/results"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/entry"
+			/>
+</RelativeLayout>
